@@ -1,0 +1,224 @@
+/* -----------------------------------------------TAG Selectors------------------------------------------------------ */
+body{
+    background-color: ivory;
+    text-align: center;
+    margin: 0px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 150%;
+    color: #40114E;
+}
+h1{
+    margin: 50px auto 0 auto;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 5.625rem;
+    color:#66BFBF;
+    line-height: 1.2;}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.56rem;
+    color:#66BFBF;
+    line-height: 2;
+    padding-bottom: 10px;}
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+hr{
+    border: dotted 6px slategray;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+}
+p{
+    line-height: 1.8;
+}
+
+/* -----------------------------------------------Class Selectors---------------------------------------------------- */
+.top-container{
+    background-color: #d2f5e3;
+    position: relative;
+    padding-top: 100px;    
+}
+.pro {
+    text-decoration: underline lightslategray;
+    font-family: 'Josefin Sans', sans-serif;}
+.programmer{
+    font-weight: normal;
+}
+
+.top-cloud{
+    margin-left: 650px;
+    margin-bottom: 50px;
+}
+.bottom-cloud{
+    margin-bottom: 300px;
+    margin-left: 50px;
+}
+.mountain{
+    margin-right: 200px ;
+}
+.middle-container{
+    margin: 100px 0;
+}
+.intro{
+    width: 37%;
+    margin: auto;
+}
+.me{
+    height: 300px;
+    width: 300px;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.grapho{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.web-dev{
+    width: 25%;
+    float: right;
+    margin-left: 30px;}
+.cricket{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.Contact-me-btn {
+    background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
+    background-image: -moz-linear-gradient(top, #66BFBF, #11999E);
+    background-image: -ms-linear-gradient(top, #66BFBF, #11999E);
+    background-image: -o-linear-gradient(top, #66BFBF, #11999E);
+    background-image: -webkit-gradient(to bottom, #66BFBF, #11999E);
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    padding: 20px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid #66BFBF 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 0px;
+    transition: transform 1.5s;
+}
+ 
+ .Contact-me-btn:hover {
+    border: solid #66BFBF 1px;
+    background-image: -webkit-linear-gradient(top, #11999E, #66BFBF);
+    background-image: -moz-linear-gradient(top, #11999E, #66BFBF);
+    background-image: -ms-linear-gradient(top, #11999E, #66BFBF);
+    background-image: -o-linear-gradient(top,#11999E, #66BFBF);
+    background-image: -webkit-gradient(to bottom, #11999E, #66BFBF);
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    text-decoration: none;
+    transform: rotate(360deg);
+ }
+.ig{
+    position: relative;
+    right: 10px;
+    border: solid darkslategray 1px;
+    background-image: -webkit-linear-gradient(top, darkslategrey, beige);
+    background-image: -moz-linear-gradient(top, darkslategrey, beige);
+    background-image: -ms-linear-gradient(top, darkslategrey, beige);
+    background-image: -o-linear-gradient(top,darkslategrey, beige);
+    background-image: -webkit-gradient(to bottom, darkslategrey, beige);
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    padding: 20px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid darkslategray 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.ig:hover{
+    border: solid beige 1px;
+    background-image: -webkit-linear-gradient(top, beige, darkslategrey);
+    background-image: -moz-linear-gradient(top, beige, darkslategrey);
+    background-image: -ms-linear-gradient(top, beige, darkslategrey);
+    background-image: -o-linear-gradient(top,beige, darkslategrey);
+    background-image: -webkit-gradient(to bottom, beige, darkslategrey);
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    text-decoration: none;
+}
+.fb{
+    position: relative;
+    left: 10px;
+    border: solid darkslategray 1px;
+    background-image: -webkit-linear-gradient(top, darkslategrey, beige);
+    background-image: -moz-linear-gradient(top, darkslategrey, beige);
+    background-image: -ms-linear-gradient(top, darkslategrey, beige);
+    background-image: -o-linear-gradient(top,darkslategrey, beige);
+    background-image: -webkit-gradient(to bottom, darkslategrey, beige);
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    padding: 20px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid darkslategray 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.fb:hover{
+    border: solid beige 1px;
+    background-image: -webkit-linear-gradient(top, beige, darkslategrey);
+    background-image: -moz-linear-gradient(top, beige, darkslategrey);
+    background-image: -ms-linear-gradient(top, beige, darkslategrey);
+    background-image: -o-linear-gradient(top,beige, darkslategrey);
+    background-image: -webkit-gradient(to bottom, beige, darkslategrey);
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+.contact-text{
+    width: 42%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 2%;
+}
+.copyright{
+    color: ivory;
+    font-size: 1rem;
+    padding: 30px 0;
+}
